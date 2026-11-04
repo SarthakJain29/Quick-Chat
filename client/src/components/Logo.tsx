@@ -6,7 +6,7 @@ export function Logo({ size = 28 }: { size?: number }) {
           <path d="M5 6a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3h-4l-4.5 3.5V15H8a3 3 0 0 1-3-3z" />
         </svg>
       </span>
-      Quick<span className="grad-text">Chat</span>
+      <span>Quick<span className="grad-text">Chat</span></span>
     </span>
   );
 }
